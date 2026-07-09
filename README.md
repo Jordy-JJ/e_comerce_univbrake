@@ -1,21 +1,21 @@
 # UniBrakes - GitHub Pages
 
-Este paquete está optimizado para GitHub Pages.
+Versión corregida: las imágenes ya van dentro de `index.html`.
 
-## Archivos incluidos
+## Sube solo estos archivos a GitHub
 
 - index.html
 - .nojekyll
-- carpeta assets/ con imágenes optimizadas
+- README.md
 
-## Cómo subirlo
+No necesitas subir carpeta `assets` ni archivo `assets.js`.
 
-1. Descomprime este ZIP.
-2. En GitHub, crea un repositorio nuevo.
-3. Sube index.html, .nojekyll y la carpeta assets a la raíz del repositorio.
+## Publicar en GitHub Pages
+
+1. Entra a tu repositorio.
+2. Borra los archivos anteriores si quedaron mal.
+3. Sube estos 3 archivos en la raíz del repositorio.
 4. Ve a Settings > Pages.
-5. Selecciona Deploy from a branch.
-6. Selecciona main y /root.
-7. Guarda y espera a que GitHub te dé la URL.
-
-Importante: no subas el ZIP directo al repositorio. Primero descomprímelo y sube los archivos.
+5. Source: Deploy from a branch.
+6. Branch: main / root.
+7. Guarda y espera la URL.
